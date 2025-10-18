@@ -1,33 +1,27 @@
-# Functions in Python: Division Calculator
+# Functions in Python: Modulo Calculator
 
-## 🎯 Aim
-To write a Python program that defines a function which accepts two values and returns their division using the / operator.
+## 🎯 Aim:
+To write a Python program that defines a function which accepts two values and returns their *modulo* using the % operator.
 
+## 🧠 Algorithm:
+1. Define a function called result that takes two arguments a and b.
+2. Inside the function, compute the modulo using a % b.
+3. Print the result of the modulo operation.
+4. Get two integer inputs from the user.
+5. Call the result function with the user-provided values.
 
-## 🧠 Algorithm
-1.Start
+## 🧾 Program:
 
-2.Define a function func(a, b) that returns the result of a / b.
+def result(a, b):
+    modulo_value = a % b
+    return modulo_value
 
-3.Input the first number a (dividend).
-
-4.Input the second number b (divisor).
-
-5.Call the function func(a, b) and store/print the result.
-
-6.End
-## 🧾 Program
-```
-def func(a,b):
-    return a/b
 a=int(input())
 b=int(input())
-print(func(a,b))
-```
+print("modulo is", result(a, b))
 
-## Output
-<img width="694" height="260" alt="image" src="https://github.com/user-attachments/assets/0b91b9f1-9141-4183-9bab-40a02895f84b" />
+## Output:
+<img width="662" height="311" alt="486025250-0bbe727b-0889-489b-8099-62bc66827fa3" src="https://github.com/user-attachments/assets/88cc4ac0-7b64-4b7c-8022-80ea5da3bc48" />
 
-
-## Result
-Thus,the Python program that defines a function which accepts two values and returns their division using the / operator is created successfully.
+## Result:
+The program to return two values modulo is successful.
